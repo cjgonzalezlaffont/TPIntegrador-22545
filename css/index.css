@@ -29,8 +29,7 @@
 .pie_fondo {
 
     background-color:rgb(11, 63, 82);
-    background ;
-
+    
 }
 .fondo_cuadroOCT{
     background-color:rgb(62, 59, 59);
@@ -47,4 +46,15 @@
 
 .card_ancho{
     width:23%;
+}
+
+.btn_Tickets{
+    background-color: rgb(4, 156, 17);
+    color:white;
+    opacity: 1;
+}
+.btn_Tickets:hover {
+    background-color: rgb(29, 197, 35);
+    color:whitesmoke;
+    opacity: 1;
 }

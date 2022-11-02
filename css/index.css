@@ -13,11 +13,17 @@
 .text_XS{
     font-size:x-small;
 }
+
+.text_footer{
+    font-size:small;
+    color: antiquewhite;
+}
+
 .opacar {         
-    filter: brightness(60%)         
+    filter: brightness(30%)         
 }
 .btn-enviar:hover{
-    background-color: rgb(11, 63, 82);
+    background-color: rgb(83, 120, 212);
     color: rgb(255, 255, 255);
     border: 1px;        
 }
@@ -49,12 +55,43 @@
 }
 
 .btn_Tickets{
-    background-color: rgb(4, 156, 17);
+    background-color: rgb(63, 223, 0)!important;
     color:white;
     opacity: 1;
 }
 .btn_Tickets:hover {
-    background-color: rgb(29, 197, 35);
-    color:whitesmoke;
-    opacity: 1;
+    background-color: rgb(46, 95, 220)!important;
+    color:rgb(255, 255, 255);
+    
 }
+
+.btn_Tickets2{
+    background-color: rgb(72, 255, 0)!important;
+    color:white !important;
+    width: 100%;
+}
+.btn_Tickets2:hover {
+    background-color: rgb(46, 95, 220)!important;
+    color:rgb(255, 255, 255);
+    
+}
+
+.tamanioBoton{
+    width: 100%;
+}
+
+.btn-calcular{
+    width: 100%;
+    color:rgb(255, 255, 255);    
+    background-color: rgb(46, 95, 220) !important;          
+}
+
+.btn-calcular:hover{
+    background-color:rgb(39, 81, 187) !important;
+    color:rgb(255, 255, 255); 
+}
+
+.btn-calcular::placeholder{
+   color:rgb(255, 255, 255);
+}
+
